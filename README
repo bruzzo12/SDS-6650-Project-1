@@ -1,0 +1,5 @@
+This project is a single server, key-value store using TCP and UDP that allows a single client to communicate with the server using only three operations:
+1.) PUT(k,v)
+2.) GET(k)
+3.) DELETE(k)
+The servers for this project are implemented using sockets and are single threaded
