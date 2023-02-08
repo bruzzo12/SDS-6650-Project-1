@@ -2,4 +2,5 @@ This project is a single server, key-value store using TCP and UDP that allows a
 1.) PUT(k,v)
 2.) GET(k)
 3.) DELETE(k)
+The key-value store holds names of people and a number such as: <'Ben',1>
 The servers for this project are implemented using sockets and are single threaded
